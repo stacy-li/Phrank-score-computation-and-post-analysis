@@ -1,3 +1,3 @@
 # Phrank-score-computation-and-post-analysis
-This code is used to compute the Phrank similarity score between patients and between gene and patient as part of the framework to discover recurrent de novo mutations in sets of paitents with similar phenotype.
-This code also contains some post-analyses of the phrank scores including calculating the p-value and grouping patients based on their Phrank score using a self-invented algorithm.
+This code is used to compute the pairwise Phrank similarity score between patients using HPO terms as part of the framework to discover recurrent de novo mutations in sets of paitents with similar phenotype. The post-analyses include calculating p-values for the pairwise Phrank similarity scores and grouping phenotypically similar patients based on their Phrank score using a self-invented algorithm.
+This code also contains the computation of gene-patient Phrank score which ranks the genes causive to the patients' phenotype.
